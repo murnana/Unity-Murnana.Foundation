@@ -1,0 +1,23 @@
+{
+    "name": "Murnana.UGUI.Tests",
+    "rootNamespace": "Murnana.UGUI.Tests",
+    "references": [
+        "UnityEngine.UI",
+        "Unity.TextMeshPro",
+        "Murnana.UGUI"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_2021_3_OR_NEWER"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

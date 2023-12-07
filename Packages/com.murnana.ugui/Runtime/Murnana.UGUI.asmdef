@@ -1,0 +1,21 @@
+{
+    "name": "Murnana.UGUI",
+    "rootNamespace": "Murnana.UGUI",
+    "references": [
+        "UnityEngine.UI",
+        "Unity.Burst",
+        "Unity.Mathematics",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_2021_3_OR_NEWER"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
