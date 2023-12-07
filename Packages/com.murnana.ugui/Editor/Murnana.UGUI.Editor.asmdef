@@ -1,0 +1,25 @@
+{
+    "name": "Murnana.UGUI.Editor",
+    "rootNamespace": "Murnana.UGUI.Editor",
+    "references": [
+        "UnityEngine.UI",
+        "UnityEditor.UI",
+        "Unity.TextMeshPro",
+        "Unity.TextMeshPro.Editor",
+        "Murnana.UGUI"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_EDITOR",
+        "UNITY_2021_3_OR_NEWER"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
