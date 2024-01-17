@@ -50,12 +50,18 @@ namespace Murnana.UGUI.Samples.OSFont
                 format: "{0} != null",
                 m_Text
             );
+            Debug.AssertFormat(
+                condition: m_Button != null,
+                context: this,
+                format: "{0} != null",
+                m_Button
+            );
 
             m_Asset = fontAsset;
 
             var faceInfo = m_Asset.TextMeshProFontAsset.faceInfo;
-            m_Text.text = $"familyName: {faceInfo.familyName}\n<size=24>styleName:{faceInfo.styleName}</size>";
-            m_Button.interactable = true;
+            m_Text!.text = $"familyName: {faceInfo.familyName}\n<size=24>styleName:{faceInfo.styleName}</size>";
+            m_Button!.interactable = true;
             m_SelectOSFont = onSelect;
         }
 
